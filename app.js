@@ -20,8 +20,9 @@ const port = process.env.PORT || config.get("port");
 app.get('/', function (req, res) {
   res.send('Welcome to the default page!  <br> <br>' +
     'Try going to different URIs by adding these at the end: <br> <br>' +
-    '<br> <br>'+
-    'Click the link for google dev tools <a href="https://developers.google.com/web/tools/chrome-devtools">https://developers.google.com/web/tools/chrome-devtools</a>' 
+    'Click the link for google dev tools <a href="Google dev tools">https://developers.google.com/web/tools/chrome-devtools</a>'+
+    '<br><br>'+
+    'Link to repository <a href="node-express-app">https://github.com/naveenpi/node-express-app</a>' 
     
   )
 })
@@ -85,14 +86,9 @@ app.use((req, res, next) => {
 // start listening and inform developers
 app.listen(port, hostname, () => {
   console.log(`\n App listening at http://${hostname}:${port}/`)
-  console.log(`\n Try going to different URIs:\n`)
-  console.log(`   Try /hello`)
-  console.log(`   Try /big`)
-  console.log(`   Try /json`)
-  console.log(`   Try /fortune`)
-  console.log(`   Try /greeting/yourname`)
-  console.log(`   Try /yo/Dr.Rogers`)
-  console.log(`   Try /fancy/?first=Denise&last=Case`)
+ 
+  
+  console.log('\n hello')
   console.log('\n Hit CTRL-C CTRL-C to stop\n')
 })
 
