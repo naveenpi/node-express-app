@@ -1,14 +1,11 @@
 {
-  "name": "node-express-app",
+  "name": "express-app",
   "description": "A super simple web app with Node.js and the Express web framework",
   "version": "1.0.0",
-  "author": "Denise Case",
+  "author": "Naveen Bhargava",
   "bugs": {
-    "url": "https://github.com/denisecase/node-express-app/issues"
+  
   },
-  "contributors": [
-    "Denise Case <dcase@nwmissouri.edu> (https://github.com/profcase)"
-  ],
   "dependencies": {
     "config": "latest",
     "express": "latest",
@@ -17,7 +14,7 @@
   "devDependencies": {
     "nodemon": "latest"
   },
-  "homepage": "https://node-express-app-563.herokuapp.com/",
+ 
   "keywords": [
     "Express.js",
     "JavaScript",
@@ -27,10 +24,7 @@
   ],
   "license": "MIT",
   "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/denisecase/node-express-app"
-  },
+
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",

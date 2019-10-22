@@ -20,13 +20,7 @@ const port = process.env.PORT || config.get("port");
 app.get('/', function (req, res) {
   res.send('Welcome to the default page!  <br> <br>' +
     'Try going to different URIs by adding these at the end: <br> <br>' +
-    '/hello <br>' +
-    '/big <br>' +
-    '/json <br>' +
-    '/greeting/yourname <br>' +
-    '/yo/Dr.Rogers <br>' +
-    '/fortune <br>' +
-    '/fancy/?first=Denise&last=Case <br>' +
+    'Click the link for google dev tools      https://developers.google.com/web/tools/chrome-devtools' +
     '<br> <br>' +
     'Fork the source code from <a href="https://github.com/denisecase/node-express-app">https://github.com/denisecase/node-express-app</a>'
   )
